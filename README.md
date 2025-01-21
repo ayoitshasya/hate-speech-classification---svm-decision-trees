@@ -1,19 +1,6 @@
-# Hate-speech-classification-using-svm-and-decision-tree
 
-
-Steps followed:
-1. Load the dataset 
-2. Perform EDA(Exploratory Data Analysis) tasks
-3. Clean the Data 
-4. Split dataset to train-test 
-5. Tokenize and make the document into a matrix 
-6. Vectorize tweets for model building
-7. Learn a vocabulary dictionary of all tokens in the raw documents
-8. Transform documents to document-term matrix
-9. Classify using support vector classifier/decision tree
-10. Perform classification and prediction on samples in x_test
-
-
-The accuracy of the model using svm is 94.91%
-and the accuracy of the model using decision tree is 92.4%
-
+1. Loaded and analyzed the dataset through exploratory data analysis (EDA).
+2. After cleaning the data, split it into training and testing sets.
+3. Tokenize the documents and transformed them into a matrix for vectorization.
+4. Built vocabulary dictionaries and converted the data into a document-term matrix.
+5. Using both a support vector classifier and a decision tree, we classified and predicted the test samples.
